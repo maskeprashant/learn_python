@@ -42,3 +42,29 @@ for st in str_ar:
     print(fruit)
     fruit = fruit[0].upper() + fruit[1:]
     print(fruit)
+
+    # stratswith and endswith
+
+name="Prashant"
+print(name.startswith('P'))
+print(name.endswith('ant'))
+
+cap_name = name.upper();
+print(cap_name)
+print(cap_name[0]+cap_name[1:].lower())
+
+count = "I have 4 apples and 5 bananas"
+count = count.replace("apple","mangoe")
+count = count.replace("4","5")
+print(count)
+
+name = input("Enter your name: ")
+name = name.replace("a","4")
+name = name.replace("b","8")
+name = name.replace("e","3")
+name = name.replace("i","1")
+name = name.replace("o","0")
+name = name.replace("s","5")
+name = name.replace("t","7")
+
+print(name)
