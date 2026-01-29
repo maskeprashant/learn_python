@@ -32,3 +32,13 @@ for i in str:
 str_ar = str.split(" ")
 for st in str_ar:
     print(st)
+
+    fruit = "abcdefghijklmnioprstuvwxyz"
+
+    print(fruit[:10])
+    print(fruit[10:])
+    print(fruit[::-1])
+    fruit="banana"
+    print(fruit)
+    fruit = fruit[0].upper() + fruit[1:]
+    print(fruit)
