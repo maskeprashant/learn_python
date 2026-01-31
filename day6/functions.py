@@ -19,3 +19,8 @@ print(greet("Alice"))
 print("Addition of 5 and 3 is:", add(5,3))
 print("Factorial of 5 is:", factorial(5))
 print("Is 4 even?", is_even(4))
+
+def addargs(*args):
+    return sum(args)
+
+print("Sum of 1,2,3,4,5 is:", addargs(1,2,3,4,5))
